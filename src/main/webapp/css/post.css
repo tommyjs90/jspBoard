@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+/*******************************************************
+Note : 게시글 리스트
+Name : Kim ji su
+Date : 2018.07.19
+*******************************************************/
+
+/* post list hover */
+#post-list-table tbody tr:hover {cursor:pointer}
+.table-disabled, .table-disabled td {color:#999;background-color:#eee;cursor:no-drop !important}
+
+/* 답글 왼쪽여백 설정 */
+td.post-answer {padding-left:20px !important}
+
+/*******************************************************
+Note : 게시글 상세 페이지
+Name : Kim ji su
+Date : 2018.07.22
+*******************************************************/
+.con-box {float:left;width:100%;padding:20px;margin-bottom:20px;border:1px solid #ddd}
+.con-box h3.sub-tit {margin:0 0 20px 0}
+
+/************** post header **************/
+.post-header {float:left;width:100%}
+
+/* 페이지 네비게이션 */
+.post-nav {float:left;width:100%}
+.post-nav a {font-size:12px;color:#999}
+.post-nav .post-nav-item::after {content:'>';padding:0 10px}
+
+/* 게시글 제목 */
+.post-tit {font-weight:bold;font-size:30px;}
+
+/* 게시글 정보 */
+.post-info {float:left;width:100%;height:30px;margin-bottom:30px;border-bottom:1px solid #ddd}
+.post-info li {list-style-type:none;float:left;margin-left:30px;font-size:14px;color:#999;letter-spacing:0.04em}
+.post-info li:first-child {margin-left:0}
+
+
+/************** post contents **************/
+.post-contents {float:left;width:100%}
+
+/* 첨부파일 리스트 */
+.file-box ul {margin:0 !important;padding:0 !important}
+.file-box ul li {list-style-type:none;padding:0;margin-top:5px}
+.file-box ul li:first-child {margin-top:0}
+
+
+/************** post footer **************/
+.post-footer {float:left;width:100%}
+
+/* 댓글 리스트 */
+.reply-box {width:100%}
+.reply-box ul li {margin-top:5px}
+.reply-box ul li:first-child {margin-top:0}
+.reply-box ul li .reply-del-btn {background-color:transparent;border:none}
+.reply-box ul li .reply-del-btn:hover {color:#f00}
+
+/* 댓글 입력 */
+.reply-insert-box {float:left;width:100%;padding:5px;border:1px solid #ddd;border-radius:5px}
+.reply-insert-box textarea {width:100%;border:0}
+
+/* 게시글 버튼 */
+.post-btn {width:100%;margin-top:30px}
+.post-btn li {float:left;margin-left:10px}
+.post-btn li:first-child {margin-left:0}
+
+
+/*******************************************************
+Note : 게시글 등록/수정 페이지
+Name : Kim ji su
+Date : 2018.07.23
+*******************************************************/
+
+/* input style */
+.post-input {width:100%;height:36px;padding-left:15px;border:1px solid #999;border-radius:5px}
+
+/* 첨부파일 + - 버튼 */
+.file-btn {width:22px;height:22px;padding:0;font-weight:bold;font-size:14px;color:#333;line-height:18px;background-color:transparent;border:1px solid #999;border-radius:50%;text-align:center}
+.file-btn:hover {color:#fff;background-color:#999}
+
+/* 첨부파일 리스트 */
+.post-file ul {width:100%}
+.post-file ul li {margin-top:5px}
+.post-file ul li:first-child {margin-top:0}
+
+/* 첨부파일 추가 목록 */
+.file-list li {margin-top:10px}
+.file-list li input[type=file] {width:100%}
+.file-list li:first-child {margin-top:0}
+
+

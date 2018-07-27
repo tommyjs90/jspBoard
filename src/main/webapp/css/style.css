@@ -1,0 +1,88 @@
+@IMPORT url("/css/style_margin.css");
+@IMPORT url("/css/style_padding.css");
+@IMPORT url("/css/board.css");
+@IMPORT url("/css/post.css");
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+/*******************************************************
+Note : reset & common
+Name : Kim ji su
+Date : 2018.07.19
+*******************************************************/
+/* reset */
+body {font-family:'Malgun Gothic';letter-spacing:-0.06em}
+a:hover {text-decoration:none;transition:all 0.3s}
+
+/* common */
+.dis-block {display:block}
+.dis-inblock {display:inline-block}
+.float-left {float:left}
+.float-right {float:right}
+.float-center {float:center}
+.border-box {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box}
+.no-pad {padding:0 !important}
+.list-no {list-style-type:none}
+.list-disc {list-style-type:disc;list-style-position:inside}
+.list-num {list-style-type:decimal}
+
+
+/*******************************************************
+Note : login custom style
+Name : Kim ji su
+Date : 2018.07.26
+*******************************************************/
+/* form box */
+.form-signin {max-width:360px;padding:40px 20px 20px;background-color:#fff;border:1px solid #ddd;border-top:3px solid #286090}
+
+/* login title */
+/* .form-signin .form-signin-heading {font-family:'Malgun Gothic';font-weight:bold;margin-bottom:30px;letter-spacing:0.1em} */
+.form-signin .signin-head {margin-bottom:30px;text-align:center}
+.form-signin .signin-head .logo {width:100px;height:100px;margin:0 auto;font-weight:bold;font-size:5em;color:#fff;line-height:90px;background-color:#286090;border-radius:20px}
+.form-signin .signin-head h3 {font-size:1.5em;margin:10px 0 0 0}
+
+/* copyright */
+.form-signin .copyright {padding-top:30px;font-size:12px;color:#676767;border-top:1px solid #ddd;text-align:center}
+
+
+/*******************************************************
+Note : side navbar style
+Name : Kim ji su
+Date : 2018.07.26
+*******************************************************/
+#sidebar {position:fixed;left:0;top:0;bottom:0;min-width:250px;max-width:250px;font-family:'Poppins', sans-serif;color:#fff;background-color:#7386D5;transition: all 0.3s;z-index:9999}
+#sidebar.active {margin-left: -250px}
+
+/* header */
+#sidebar .sidebar-header {height:50px;padding:0 20px;line-height:50px;background:#6d7fcc}
+#sidebar .sidebar-header h3 {height:50px;margin:0;line-height:50px;}
+
+/* list */
+#sidebar ul.components {padding:20px 0}
+
+#sidebar ul li a {display:block;padding:15px 10px;font-size:1.2em;color:#fff}
+#sidebar ul li a:hover {color:#7386D5;background:#fff}
+#sidebar ul li.active > a, a[aria-expanded="true"] {color:#fff;background:#6d7fcc}
+
+a[data-toggle="collapse"] {position:relative}
+.dropdown-toggle::after {display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%)}
+
+ul ul a {padding-left:30px !important;font-size:0.9em !important;background:#6d7fcc;}
+
+@media (max-width: 768px) {
+    #sidebar {margin-left: -250px;}
+    #sidebar.active {margin-left: 0;}
+    #sidebarCollapse span {display: none;}
+}
+
+/* top */
+.navbar-top {height:50px;background-color:#efefef;border-bottom:1px solid #ddd}
+
+
+
+
+
+
+
+
+

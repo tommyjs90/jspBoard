@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+/*******************************************************
+Note : create board List
+Name : Kim ji su
+Date : 2018.07.19
+*******************************************************/
+
+/* create board */
+form#create-board-form table tr td {border-top:0}

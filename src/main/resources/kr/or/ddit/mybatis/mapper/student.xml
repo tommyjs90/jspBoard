@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="student">
+	
+	<!-- 특정 학생(회원) 정보 조회 -->
+	<select id="getStudent" parameterType="String" resultType="studentVo">
+		SELECT *
+		FROM STUDENT
+		WHERE std_id = #{std_id}
+	</select>
+
+</mapper>
